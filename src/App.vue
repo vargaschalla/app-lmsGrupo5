@@ -6,6 +6,8 @@
          <!-- specify the link by passing the `to` prop. -->
          <!-- `<router-link>` will be rendered as an `<a>` tag by default -->
            <router-link to="/">INICIO</router-link>
+           <router-link to="/persons">PERSONA</router-link>
+           <router-link to="/rol">ROL</router-link>
            <router-link to="/tareas">TAREAS</router-link>
            <router-link to="/sesiones">SESIONES</router-link>
            <router-link to="/login">INICIAR SESIÓN</router-link>
@@ -32,7 +34,7 @@
   width: 100%;
   margin: auto;
   position: center;
-  max-width:700px;
+  max-width:1000px;
 }
 
 nav{

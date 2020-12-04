@@ -4,6 +4,10 @@ import Tareas_form from './components/Tareas_form.vue';
 import Sesiones_form from './components/Sesiones_form.vue';
 import Sesiones from './components/Sesiones.vue';
 import Tareas from './components/Tareas.vue';
+import Person from './components/Person.vue';
+import PersonForm from './components/PersonForm.vue';
+import Rol from './components/Rol.vue';
+import RolForm from './components/RolForm.vue';
 import Login from './components/Login.vue';
 import Logout from './components/Logout.vue';
 
@@ -50,6 +54,36 @@ const router = new Router({
       path: '/sesiones/new/:id',
       name: 'Sesiones_form',
       component: Sesiones_form,
+    },
+    {
+      path: '/persons',
+      name: 'Person',
+      component: Person,
+    },
+    {
+      path: '/persons/form',
+      name: 'PersonForm',
+      component: PersonForm,
+    },
+    {
+      path: '/persons/form/:id',
+      name: 'PersonForme',
+      component: PersonForm
+    },
+    {
+      path: '/rol',
+      name: 'Rol',
+      component: Rol,
+    },
+    {
+      path: '/rol/form',
+      name: 'RolForm',
+      component: RolForm,
+    },
+    {
+      path: '/rol/form/:id',
+      name: 'RolForme',
+      component: RolForm
     },
     {
       path: '/login',
